@@ -45,16 +45,16 @@ yarn start
 
 ## ⚙️ Cấu hình mạng & Triển khai (Deployment)
 
-Dự án hỗ trợ linh hoạt giữa môi trường **Local** và **Testnet**, phù hợp cho cả mục đích học tập và triển khai thực tế.
-
 ---
 
-### Môi trường chấm bài (Local)
+### Môi trường (Local)
 
 - Dự án được cấu hình mặc định chạy trên **Hardhat local blockchain**.
 - Cấu hình này nằm trong file `scaffold.config.ts`:
 
 ```ts
 targetNetworks: [chains.hardhat]
+
+
 
 
